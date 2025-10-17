@@ -191,6 +191,14 @@ div.ribbons p {
   margin: 0;
 }
 
+.retro {
+  border: 4px solid white;       /* biała ramka */
+  padding: 5px;                   /* odstęp wewnętrzny */
+  box-shadow: 0 0 10px #aaa;      /* delikatny cień jak ze starego aparatu */
+  object-fit: cover;              /* zachowuje proporcje */
+}
+
+
 /* responsywność */
 @media (max-width: 980px) {
   #walter-container {
